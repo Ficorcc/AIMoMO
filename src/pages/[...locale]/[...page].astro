@@ -45,6 +45,21 @@ export const getStaticPaths = (async ({ paginate }) => {
     const localeCode = typeof locale === 'string' ? locale : locale.path;
     const localeParam = localeCode === i18n.defaultLocale ? undefined : localeCode;
     const blogEntries = await getBlogEntrySort(localeParam, undefined, createPinTopSort());
+
+    if (blogEntries.length === 0) {
+      paths.push({
+        params: { locale: localeParam },
+        props: {
+          page: {
+            data: [],
+            currentPage: 1,
+            lastPage: 1,
+          }
+        }
+      });
+      continue;
+    }
+
     const paginatedPaths = paginate(blogEntries, { 
       pageSize: siteConfig.pageSize,
       params: { locale: localeParam }
