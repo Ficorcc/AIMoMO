@@ -1,0 +1,149 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-dashboard:
+    name: Build Dashboard
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+          cache-dependency-path: "./dashboard/pnpm-lock.yaml"
+      - name: Build Dashboard
+        run: |
+          cd ./dashboard
+          pnpm install
+          pnpm run build
+      # 保存打包后的静态文件
+      - name: Upload Dashboard Dist
+        uses: actions/upload-artifact@v4
+        with:
+          name: dashboard-dist
+          path: dashboard/dist/
+
+  build-frontend:
+    name: Build Frontend
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+          cache-dependency-path: "./frontend/pnpm-lock.yaml"
+      - name: Build Frontend
+        run: |
+          cd ./frontend
+          pnpm install
+          pnpm run build
+      - name: Upload Frontend Dist
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-dist
+          path: frontend/dist/
+
+  build-go:
+    name: Build Go Version
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        goos: [linux, windows]
+        goarch: ["amd64"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.25'
+      - name: Build
+        run: |
+          cd ./go
+          APP_NAME="momo-backend"
+          OUTPUT="${APP_NAME}-${{ matrix.goos }}-${{ matrix.goarch }}"
+          [ "${{ matrix.goos }}" = "windows" ] && OUTPUT="${OUTPUT}.exe"
+          CGO_ENABLED=0 GOOS=${{ matrix.goos }} GOARCH=${{ matrix.goarch }} go build -ldflags="-s -w" -o "dist/${OUTPUT}" main.go
+      # 保存编译好的二进制文件
+      - name: Upload Go Binary
+        uses: actions/upload-artifact@v4
+        with:
+          name: go-bin-${{ matrix.goos }}
+          path: go/dist/
+
+  zip-files:
+    name: Zip Files
+    needs: [build-dashboard, build-frontend, build-go] # 必须等待编译完成
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      # 下载之前保存的所有产物
+      - name: Download All Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: ./downloads
+
+      - name: Prepare and Zip
+        run: |
+          # 1. 准备 dashboard 静态资源路径
+          DIST_PATH=$(pwd)/downloads/dashboard-dist
+          
+          # 2. 打包 Nodejs & Worker (包含 public)
+          mkdir -p nodejs/public worker/public
+          cp -r $DIST_PATH/* nodejs/public/
+          cp -r $DIST_PATH/* worker/public/
+          zip -r nodejs.zip nodejs/ -x "*.git*"
+          zip -r worker.zip worker/ -x "*.git*"
+
+          # 3. 打包 frontend 编译产物 (直接包含 dist 内容，不包含路径)
+          cd $(pwd)/downloads/frontend-dist
+          zip -r ../../frontend-dist.zip .
+          cd -
+          
+          # 4. 打包 Dashboard 编译产物 (直接包含 dist 内容，不包含路径)
+          cd $(pwd)/downloads/dashboard-dist
+          zip -r ../../dashboard-dist.zip .
+          cd -
+          
+          # 5. 打包 Go 版本
+          mkdir -p go-release/public
+          cp -r $DIST_PATH/* go-release/public/
+          
+          # 处理 Linux 二进制
+          LINUX_BIN="downloads/go-bin-linux/momo-backend-linux-amd64"
+          if [ -f "$LINUX_BIN" ]; then
+            cp "$LINUX_BIN" go-release/
+            cp go/script/momo.bash go-release/
+            tar -czhf go-linux-amd64.tar.gz -C go-release .
+            rm go-release/momo-backend-linux-amd64
+          fi
+          
+          # 处理 Windows 二进制
+          WINDOWS_BIN="downloads/go-bin-windows/momo-backend-windows-amd64.exe"
+          if [ -f "$WINDOWS_BIN" ]; then
+            cp "$WINDOWS_BIN" go-release/
+            zip -r go-windows-amd64.zip go-release/
+          fi
+
+      - name: Create Release and Upload Assets
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            *.zip
+            *.tar.gz
+          name: Release ${{ github.ref_name }}
+          draft: false
+          prerelease: false

@@ -1,0 +1,46 @@
+export interface Translation {
+    comments: {
+        name: string;
+        email: string;
+        site: string;
+        required: string;
+        optional: string;
+        welcome: string;
+        comments: string;
+        cancel: string;
+        send: string;
+        sending: string;
+        reply: string;
+        replyPlaceholder: string;
+        loadMore: string;
+        loading: string;
+        loadFailed: string;
+        submitSuccess: string;
+        submitFailed: string;
+        verificationRequired: string;
+        fillRequired: string;
+        confirmDelete: string;
+        delete: string;
+        deleteSuccess: string;
+        deleteFailed: string;
+        deleteError: string;
+        characters: string;
+        words: string;
+        contentTooLong: string;
+        replyTo: string;
+        write: string;
+        preview: string;
+        previewError: string;
+        codeFence: string;
+        inlineCode: string;
+        bold: string;
+        italic: string;
+        quote: string;
+        code: string;
+        link: string;
+        image: string;
+        list: string;
+        showMoreReplies: string;
+        collapseReplies: string;
+    },
+}

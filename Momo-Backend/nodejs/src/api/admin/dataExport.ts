@@ -1,0 +1,113 @@
+import type { Context } from "hono";
+import { getAllSettings } from "../../utils/settings";
+import { db, schema } from "../../orm/client";
+import { asc } from "drizzle-orm";
+import { checkKey, extractToken } from "../../utils/security";
+import pkg from "../../../package.json";
+
+function checkAuth(c: Context): boolean {
+  const authHeader = c.req.header("Authorization") || "";
+  const key = extractToken(authHeader);
+  if (!key || !checkKey(key)) {
+    return false;
+  }
+  return true;
+}
+
+// 导出系统设置（含 email_password，不含 admin_name/admin_password）
+export async function exportSettings(c: Context): Promise<Response> {
+  if (!checkAuth(c)) {
+    return c.json({ code: 401, message: "Invalid token" }, 401);
+  }
+
+  const all = await getAllSettings();
+
+  const allowList: Record<string, boolean> = {
+    site_name: true,
+    admin_email: true,
+    smtp_host: true,
+    smtp_port: true,
+    email_user: true,
+    email_password: true,
+    email_secure: true,
+    allow_origin: true,
+    email_enabled: true,
+    reply_template: true,
+    notification_template: true,
+    comment_auto_approve: true,
+    ip_blacklist: true,
+    email_blacklist: true,
+    blogger_badge_enabled: true,
+    blogger_badge_text: true,
+    placeholder_name: true,
+    placeholder_email: true,
+    placeholder_content: true,
+    placeholder_url: true,
+    admin_comment_key: true,
+    admin_comment_key_enabled: true,
+    email_verify_enabled: true,
+    verify_base_url: true,
+  };
+
+  const filtered: Record<string, string> = {};
+  for (const key of Object.keys(allowList)) {
+    if (key in all) {
+      filtered[key] = all[key];
+    }
+  }
+  if (!("email_enabled" in filtered)) {
+    filtered.email_enabled = "true";
+  }
+
+  return c.json({
+    code: 200,
+    message: "Settings exported",
+    data: {
+      exportedAt: new Date().toISOString(),
+      type: "settings",
+      version: pkg.version,
+      settings: filtered,
+    },
+  });
+}
+
+// 导出评论数据
+export async function exportComments(c: Context): Promise<Response> {
+  if (!checkAuth(c)) {
+    return c.json({ code: 401, message: "Invalid token" }, 401);
+  }
+
+  const rows = db
+    .select()
+    .from(schema.comments)
+    .orderBy(asc(schema.comments.pub_date))
+    .all();
+
+  const mapped = rows.map((c: any) => ({
+    id: c.id,
+    pubDate: new Date(c.pub_date).toISOString(),
+    postSlug: c.post_slug,
+    author: c.author,
+    email: c.email,
+    url: c.url || undefined,
+    ipAddress: c.ip_address || "",
+    os: c.os || "",
+    browser: c.browser || "",
+    contentText: c.content_text,
+    contentHtml: c.content_html,
+    parentId: c.parent_id || undefined,
+    status: c.status,
+  }));
+
+  return c.json({
+    code: 200,
+    message: "Comments exported",
+    data: {
+      exportedAt: new Date().toISOString(),
+      type: "comments",
+      version: pkg.version,
+      total: mapped.length,
+      comments: mapped,
+    },
+  });
+}

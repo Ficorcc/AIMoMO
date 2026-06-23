@@ -1,0 +1,24 @@
+{
+    "language": "zh-cn",
+    "defaultCategory": "指南",
+    "outputDir": "src/content/blog/ai",
+    "siteName": "Ficor's Blog",
+    "authorStyle": "写给普通读者，语气自然、具体、有个人观察，不堆砌术语。",
+    "topicScope": [
+        "AI 工具的实际使用体验",
+        "个人博客、写作、Obsidian、Memos、Astro",
+        "独立开发、自动化工作流、效率工具"
+    ],
+    "avoidTopics": [
+        "未经验证的医疗、法律、金融建议",
+        "纯 SEO 拼凑内容",
+        "没有来源支撑的新闻判断"
+    ],
+    "articleRules": {
+        "minWords": 900,
+        "maxWords": 1800,
+        "requireSources": true,
+        "sourceCount": 5,
+        "tone": "像博客文章，不像新闻稿。可以有结论，但要说明依据。"
+    }
+}

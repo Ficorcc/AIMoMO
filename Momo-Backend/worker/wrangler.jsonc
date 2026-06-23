@@ -1,0 +1,33 @@
+/**
+ * For more details on how to configure Wrangler, refer to:
+ * https://developers.cloudflare.com/workers/wrangler/configuration/
+ */
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "aimomo-backend-worker",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-01-03",
+	"compatibility_flags": [ "nodejs_compat" ],
+	"observability": {
+		"enabled": true
+	},
+	"assets": {
+		"directory": "./public", // 指向 Vue 编译后的文件夹
+		"not_found_handling": "single-page-application" // 关键：开启 SPA 路由支持
+	},
+	"workers_dev": true,
+	// 注意英文逗号
+	"d1_databases": [
+		{
+			"binding": "MOMO_DB",
+			"database_name": "MOMO_DB",
+			"database_id": "bf88a38d-98df-41b2-bfb6-ccc8746d181f"
+		}
+	],
+	"kv_namespaces": [
+		{
+			"binding": "MOMO_AUTH_KV",
+			"id": "596ec83bf68d4a1f9a2e1a48f5cce107"
+		}
+	]
+}

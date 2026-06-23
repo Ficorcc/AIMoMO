@@ -1,0 +1,30 @@
+---
+title: "启航"
+pubDate: 2019-05-02T23:08:22
+description: "启航"
+category: "感悟"
+image: "https://ficor.net/wp-content/uploads/2019/05/启航-216x300.webp"
+draft: false
+slugId: "momo/set-sail"
+---
+![image](https://ficor.net/wp-content/uploads/2019/05/启航-216x300.webp) 
+
+启航
+
+新的一年，新的路程
+
+茫然接手，但不盲目
+
+催促着自己去走下面的路
+
+转了一圈，回到原点
+
+看着熟悉的场景
+
+做着熟悉的事情
+
+重新出发！！
+
+谨记
+
+在网站也重新出发
