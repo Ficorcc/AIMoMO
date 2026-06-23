@@ -23,7 +23,7 @@ export const siteConfig: SiteConfig = {
     comments: {
         enable: true, // Whether to enable comments
         platform: "default", // Comment platform, set "default" to use Momo-backend, also supports "twikoo"
-        backendUrl: "https://aimomo-backend-worker.ficor.workers.dev" // Backend URL for comments
+        backendUrl: "https://aimomo.ficor.cc" // Backend URL for comments
     },
     theme: {
         AOS: true, // Whether to enable AOS (Animate On Scroll) for animations

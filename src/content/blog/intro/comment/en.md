@@ -35,7 +35,7 @@ If you need to use the comment feature in other projects, you can directly impor
         title: 'Test', // Article title
         slugId: 'blog/test', // Unique slugId of the article
         lang: 'zh-cn', // Language, currently supports zh-cn, en
-        apiUrl: 'https://aimomo-backend-worker.ficor.workers.dev' // Backend address
+        apiUrl: 'https://aimomo.ficor.cc' // Backend address
     });
 </script>
 ```

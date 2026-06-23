@@ -36,7 +36,7 @@ Momo 支持添加评论功能，并提供两种部署方式，支持零服务器
         title: 'Test', // 文章标题
         slugId: 'blog/test', // 文章的唯一 slugId
         lang: 'zh-cn', // 语言，目前支持 zh-cn, en
-        apiUrl: 'https://aimomo-backend-worker.ficor.workers.dev' // 后端地址
+        apiUrl: 'https://aimomo.ficor.cc' // 后端地址
     });
 </script>
 ```
