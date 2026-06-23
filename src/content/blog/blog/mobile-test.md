@@ -1,11 +1,9 @@
 ---
 title: "移动端阅读体验测试"
-pubDate: 2026-06-23T13:52:00
-description: "这是一篇用于测试移动端显示效果的示例文章，包含各种常用的排版元素，非常适合测试手机版的显示效果。"
-category: "测试"
-image: "https://img.ficor.net/uploads/2026/03/69a5096e5e50f.webp"
+pubDate: 2026-06-23T14:04:00
+description: "本文包含标题、列表、代码块、引用、表格等多种排版元素，专门用于测试移动端阅读体验，帮助优化博客在手机上的显示效果。"
+category: "技术"
 draft: false
-slugId: "momo/mobile-test"
 ---
 
 # 移动端阅读体验测试
