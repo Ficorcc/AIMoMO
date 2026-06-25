@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import tailwindcss from "@tailwindcss/vite";
 import icon from 'astro-icon';
+import { unified } from '@astrojs/markdown-remark';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import remarkDirective from 'remark-directive';
@@ -49,34 +50,36 @@ export default defineConfig({
       // theme: 'github-dark',
       wrap: false
     },
-    remarkPlugins: [
-      remarkMath,
-      remarkReadingTime,
-      remarkDirective,
-      remarkTypst,
-      parseDirectiveNode,
-      remarkCombined,
-      [remarkLqip, { enable: siteConfig.theme.LQIP }],
-    ],
-    rehypePlugins: [
-      rehypeKatex,
-      customFigurePlugin,
-      [
-        rehypeComponents,
-        {
-          components: {
-            github: GithubCardComponent,
-            music: MusicCardComponent,
-            quote: QuoteComponent,
-            note: admonition("note"),
-            tip: admonition("tip"),
-            important: admonition("important"),
-            caution: admonition("caution"),
-            warning: admonition("warning"),
-          },
-        },
+    processor: unified({
+      remarkPlugins: [
+        remarkMath,
+        remarkReadingTime,
+        remarkDirective,
+        remarkTypst,
+        parseDirectiveNode,
+        remarkCombined,
+        [remarkLqip, { enable: siteConfig.theme.LQIP }],
       ],
-    ]
+      rehypePlugins: [
+        rehypeKatex,
+        customFigurePlugin,
+        [
+          rehypeComponents,
+          {
+            components: {
+              github: GithubCardComponent,
+              music: MusicCardComponent,
+              quote: QuoteComponent,
+              note: admonition("note"),
+              tip: admonition("tip"),
+              important: admonition("important"),
+              caution: admonition("caution"),
+              warning: admonition("warning"),
+            },
+          },
+        ],
+      ],
+    }),
   },
   vite: {
     plugins: [tailwindcss()]
