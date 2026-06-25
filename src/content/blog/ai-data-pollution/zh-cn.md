@@ -1,7 +1,7 @@
 ---
 title: "用AI训练AI：数据标注工人在用ChatGPT造假，整个行业都在自欺欺人"
 pubDate: 2026-06-25
-description: 'Scale AI、Outlier等数据标注平台的工作人员被曝用ChatGPT完成"人类高质量数据"标注任务。当AI的训练数据本身就被AI污染，整个AI行业正在陷入一场信任危机。'
+description: "Scale AI、Outlier等数据标注平台的工作人员被曝用ChatGPT完成\"人类高质量数据\"标注任务。当AI的训练数据本身就被AI污染，整个AI行业正在陷入一场信任危机。"
 category: "AI"
 image: ""
 draft: false

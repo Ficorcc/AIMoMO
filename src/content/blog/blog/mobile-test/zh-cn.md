@@ -3,8 +3,9 @@ title: "移动端阅读体验测试"
 pubDate: 2026-06-23T14:04:00
 description: "本文包含标题、列表、代码块、引用、表格等多种排版元素，专门用于测试移动端阅读体验，帮助优化博客在手机上的显示效果。"
 category: "技术"
-slugId: "momo/mobile-test"
+image: ""
 draft: false
+slugId: "momo/mobile-test"
 ---
 
 # 移动端阅读体验测试

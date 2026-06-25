@@ -39,12 +39,13 @@ try {
 
 // 默认的 Markdown 内容
 const defaultContent = `---
-title: new post
-date: ${new Date().toISOString().split('T')[0]}
-description: Some description here
+title: "new post"
+pubDate: ${new Date().toISOString().split('T')[0]}
+description: "Some description here"
+category: "AI"
 image: ""
 draft: false
-slug: ${folderPath}
+slugId: "momo/${folderPath.split('/').filter(Boolean).pop() || folderPath}"
 ---
 
 ## Title

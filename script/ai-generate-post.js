@@ -52,8 +52,9 @@ await writeFile(targetPath, markdown, 'utf8');
 console.log(`Created ${targetPath}`);
 
 if (publish) {
+    run('pnpm', ['posts:normalize']);
     run('pnpm', ['build']);
-    run('git', ['add', targetPath]);
+    run('git', ['add', 'src/content/blog']);
     run('git', ['commit', '-m', `Publish AI article: ${post.title}`]);
 
     if (push) {
