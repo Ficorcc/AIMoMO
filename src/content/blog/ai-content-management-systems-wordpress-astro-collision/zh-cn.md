@@ -1,4 +1,12 @@
 ---
+title: "AI内容管理系统、WordPress 与 Astro 之间的架构冲突"
+pubDate: 2026-07-16
+description: "WordPress 7.0 将 AI 基础设施直接焊进 CMS 内核，Astro 却死磕 Core Web Vitals 通过率66%。两种路线，代表了对「博客到底是什么」的根本分歧。"
+category: "博客"
+image: ""
+draft: false
+slugId: "momo/ai-content-management-systems-wordpress-astro-collision"
+---
 AIGC:
     Label: "1"
     ContentProducer: 001191440300708461136T1XGW3
