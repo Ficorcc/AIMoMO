@@ -1,12 +1,13 @@
 ---
-AIGC:
-    Label: "1"
-    ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: 03bce104f8581472252c9414909234ca_160407f280fa11f18afe525400e6dd8f
-    ReservedCode1: ZUXayIa4Mes8Yx4D+Z5g2D3BUgu0G/Ce9MWnhpfqWweYpj33+o+VjigeYYTff+QJJWDWYt4IAHCCtBFTCTC1HGs4ks97nifNg9KCHexCCs8Zt/d8M6ranq+ztilsXnSegCD8wpNA5Z04+GN/ZHn0v3KyLi9wQ2/L3pyZk+1qdpEV2BHqlTudZYnhtj8=
-    ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: 03bce104f8581472252c9414909234ca_160407f280fa11f18afe525400e6dd8f
-    ReservedCode2: ZUXayIa4Mes8Yx4D+Z5g2D3BUgu0G/Ce9MWnhpfqWweYpj33+o+VjigeYYTff+QJJWDWYt4IAHCCtBFTCTC1HGs4ks97nifNg9KCHexCCs8Zt/d8M6ranq+ztilsXnSegCD8wpNA5Z04+GN/ZHn0v3KyLi9wQ2/L3pyZk+1qdpEV2BHqlTudZYnhtj8=
+title: "7月1日起，550项国家新标准同日实施：科技行业迎来密集合规窗口"
+pubDate: 2026-07-16
+description: "2026年7月1日，550项国家标准同步实施，涵盖电动汽车安全、AI合成内容标识、网络安全等多个领域。这波「规则密集重构」对科技行业意味着什么？"
+category: "法律"
+image: ""
+draft: false
+slugId: "momo/july-2026-tech-compliance"
+---
+
 ---
 
 

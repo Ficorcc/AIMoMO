@@ -1,12 +1,13 @@
 ---
-AIGC:
-    Label: "1"
-    ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: 03bce104f8581472252c9414909234ca_bc1a8c3d817c11f1b625525400e6dd8f
-    ReservedCode1: XpkoxW83TyqYNUZWRBPTYDD/NiWcjdF9zfgHpg1gFOdJzIc6DtRywfwLlvANpnlZlTv/NwMhflsD0S7p7F8y9A/Zkx6ZsO9hc91tZOJoi34nV244Xf3nOVdqRTKLdezW1NKMfFiy8+v0j4ARucN7GlmXxfsPsu7rsXT0riUTuVtW843JDbUP1oMLtDw=
-    ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: 03bce104f8581472252c9414909234ca_bc1a8c3d817c11f1b625525400e6dd8f
-    ReservedCode2: XpkoxW83TyqYNUZWRBPTYDD/NiWcjdF9zfgHpg1gFOdJzIc6DtRywfwLlvANpnlZlTv/NwMhflsD0S7p7F8y9A/Zkx6ZsO9hc91tZOJoi34nV244Xf3nOVdqRTKLdezW1NKMfFiy8+v0j4ARucN7GlmXxfsPsu7rsXT0riUTuVtW843JDbUP1oMLtDw=
+title: "鸿蒙7装机7300万，博客建站生态迎来第一次「Agent化重构」"
+pubDate: 2026-07-16
+description: "鸿蒙HarmonyOS 7以「首个AI化改造的操作系统」登场，装机量突破7300万。当操作系统内置Agent能力，独立博客的创作与发布方式正在被重构。"
+category: "博客"
+image: ""
+draft: false
+slugId: "momo/harmonyos-7-blog-ecosystem"
+---
+
 ---
 
 

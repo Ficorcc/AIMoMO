@@ -6,16 +6,6 @@ category: "博客"
 image: ""
 draft: false
 slugId: "momo/ai-content-management-systems-wordpress-astro-collision"
----
-AIGC:
-    Label: "1"
-    ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: 03bce104f8581472252c9414909234ca_14fb303b80fa11f18afe525400e6dd8f
-    ReservedCode1: m548UiKU7+zlg+5PyBCTb0n1i9/VDeHqp7wxqQCqXlFPLuNEURHGcQC9qwIq57jpJsiMSJ02RxYE/cTGtOe9znTNELk6Oic3GsoqplVFCfqb8eOP+hM794aWn++SZb5jkl0OlAC6PNfXAuSw101425Poij+sX71zXjKWjZuoM4lyVrW0lpru4AVajtY=
-    ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: 03bce104f8581472252c9414909234ca_14fb303b80fa11f18afe525400e6dd8f
-    ReservedCode2: m548UiKU7+zlg+5PyBCTb0n1i9/VDeHqp7wxqQCqXlFPLuNEURHGcQC9qwIq57jpJsiMSJ02RxYE/cTGtOe9znTNELk6Oic3GsoqplVFCfqb8eOP+hM794aWn++SZb5jkl0OlAC6PNfXAuSw101425Poij+sX71zXjKWjZuoM4lyVrW0lpru4AVajtY=
----
 
 
 
