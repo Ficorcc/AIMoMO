@@ -1,5 +1,5 @@
 ---
-title: "你的AI编程助手，正在背着你给Anthropic发"家书"：Claude Code后门事件全解析"
+title: "你的AI编程助手，正在背着你给Anthropic发\"家书\"：Claude Code后门事件全解析"
 pubDate: 2026-07-09
 description: "7月8日，工信部NVDB发布紧急风险提示：美国AI编程工具Claude Code的2.1.91至2.1.196版本被曝存在未公开后门，可未经用户同意向远程服务器回传地域、身份标识等敏感数据。阿里内部已全面禁用。这件事的真相，比表面看起来要复杂得多。"
 category: "AI"

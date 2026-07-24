@@ -1,7 +1,7 @@
 ---
-title: "Astro 7 用 Rust 重写：一场前端"换芯"运动，正在改变你的博客"
+title: "Astro 7 用 Rust 重写：一场前端\"换芯\"运动，正在改变你的博客"
 pubDate: 2026-07-16
-description: "2026年7月，前端圈静悄悄地"换芯"：TypeScript 7用Go重写编译快10倍，Astro 7用Rust重写，连Bun都从Zig迁到了Rust。作为用Astro搭博客的人，这件事离你比想象中近。"
+description: "2026年7月，前端圈静悄悄地\"换芯\"：TypeScript 7用Go重写编译快10倍，Astro 7用Rust重写，连Bun都从Zig迁到了Rust。作为用Astro搭博客的人，这件事离你比想象中近。"
 category: "博客"
 image: ""
 draft: false

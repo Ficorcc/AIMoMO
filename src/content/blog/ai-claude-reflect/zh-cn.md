@@ -1,5 +1,5 @@
 ---
-title: "Claude开始"反观"你了：Anthropic这款新功能，暴露了AI行业最矛盾的心态"
+title: "Claude开始\"反观\"你了：Anthropic这款新功能，暴露了AI行业最矛盾的心态"
 pubDate: 2026-07-11
 description: "Anthropic给Claude上了个'年度回顾'功能，像Spotify Wrapped一样统计你的AI使用习惯，还附赠'防沉迷'提醒。这件事有意思的地方在于：一家靠你多用水涨船高的公司，为什么要帮你少用？"
 category: "AI"

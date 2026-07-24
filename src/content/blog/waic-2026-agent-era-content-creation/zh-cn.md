@@ -1,8 +1,8 @@
 ---
-title: "WAIC 2026启示录：当AI Agent有了身份证，内容创作进入智能体时代"
-pubDate: 2026-07-20
-description: "2026世界人工智能大会上，国家智能体互联标准正式落地，为每个AI Agent发放'数字身份证'。与此同时，WordPress 7.1 Beta和Astro 7.1同期发布。三条线索指向同一个问题：当AI能自主执行任务，独立创作者的生态位在哪里？"
-category: "AI"
+title: "Waic 2026 agent era content creation"
+pubDate: 2026-07-21
+description: "2026年7月19日，上海世博中心。"
+category: "指南"
 image: ""
 draft: false
 slugId: "momo/waic-2026-agent-era-content-creation"
@@ -63,3 +63,4 @@ WordPress 的路线越来越清晰：**成为一个 AI-native 的内容操作系
 独立博客最大的优势从来不是流量，而是自主性——自己决定用什么工具、写什么内容、怎么分发。当 AI Agent 开始参与内容生态的每一个环节时，这种自主性面临前所未有的挑战，也迎来了前所未有的机遇。
 
 因为在一个人人都有 AI 工具的时代，**有观点、有判断、有温度的人类创作，正在成为最稀缺的资源。**
+*（内容由AI生成，仅供参考）*

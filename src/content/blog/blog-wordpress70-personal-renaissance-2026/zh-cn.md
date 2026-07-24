@@ -1,7 +1,7 @@
 ---
 title: "WordPress 7.0与2026个人博客复兴——当AI内容泛滥，独立站为何反而更值钱"
 pubDate: 2026-07-19
-description: "WordPress 7.0 将 WPGraphQL 收编为官方插件、Abilities API 替代 JWT、MCP Adapter 让博客变成 AI Agent 可编程环境。技术栈的成熟与 AI 内容的泛滥，正在催生一场意料之外的"部落格文艺复兴"——当正确废话装满互联网，真人写的东西反而变成了稀缺品。"
+description: "WordPress 7.0 将 WPGraphQL 收编为官方插件、Abilities API 替代 JWT、MCP Adapter 让博客变成 AI Agent 可编程环境。技术栈的成熟与 AI 内容的泛滥，正在催生一场意料之外的\"部落格文艺复兴\"——当正确废话装满互联网，真人写的东西反而变成了稀缺品。"
 category: "独立博客"
 image: ""
 draft: false

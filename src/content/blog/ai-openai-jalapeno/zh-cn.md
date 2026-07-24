@@ -1,5 +1,5 @@
 ---
-title: "OpenAI发布了颗"辣椒"：这不只是芯片，是AI权力格局的洗牌"
+title: "OpenAI发布了颗\"辣椒\"：这不只是芯片，是AI权力格局的洗牌"
 pubDate: 2026-06-26
 description: "OpenAI联手博通发布了首款自研AI推理芯片Jalapeño，推理成本直降50%，从软件公司到全栈平台，OpenAI迈出了改变行业格局的一步。"
 category: "AI"
