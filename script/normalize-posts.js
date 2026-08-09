@@ -87,6 +87,9 @@ async function normalizeFileLocation(file) {
 async function normalizeFrontmatter(file) {
   const original = await readFile(file, 'utf8');
   const { frontmatter, body } = splitFrontmatter(original);
+  if (hasLeadingFrontmatterBlock(body)) {
+    throw new Error(`Multiple frontmatter blocks found in ${path.relative(rootDir, file)}`);
+  }
   const data = parseFlatFrontmatter(frontmatter);
   const relative = toPosix(path.relative(blogDir, file));
   const slugPath = getSlugPath(relative);
@@ -145,6 +148,25 @@ function splitFrontmatter(markdown) {
     frontmatter: lines.slice(1, end).join('\n'),
     body: lines.slice(end + 1).join('\n'),
   };
+}
+
+function hasLeadingFrontmatterBlock(markdown) {
+  const lines = markdown.replace(/^\uFEFF/, '').split(/\r?\n/);
+  let index = 0;
+  while (index < lines.length && lines[index].trim() === '') index += 1;
+
+  if (lines[index]?.trim() !== '---') return false;
+
+  let hasFrontmatterKey = false;
+  for (let cursor = index + 1; cursor < lines.length; cursor += 1) {
+    const line = lines[cursor].trim();
+    if (line === '---') return hasFrontmatterKey;
+    if (!line) continue;
+    if (!/^[A-Za-z][A-Za-z0-9_-]*:\s*/.test(line)) return false;
+    hasFrontmatterKey = true;
+  }
+
+  return false;
 }
 
 function parseFlatFrontmatter(frontmatter) {
