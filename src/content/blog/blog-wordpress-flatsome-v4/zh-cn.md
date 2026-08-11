@@ -1,5 +1,5 @@
 ---
-title: "WordPress 最火主题 Flatsome v4 来了：八年老将，能否打赢这场"视觉内卷"？"
+title: "WordPress 最火主题 Flatsome v4 来了：八年老将，能否打赢这场\"视觉内卷\"？"
 pubDate: 2026-07-31
 description: "全球销量最高的 WordPress 主题 Flatsome 正在迎来 v4.0 alpha 测试，时隔多年的大版本更新带来了全新后台、模块系统和 SEO 功能。对于博主和站长来说，这意味着什么？"
 category: "博客"

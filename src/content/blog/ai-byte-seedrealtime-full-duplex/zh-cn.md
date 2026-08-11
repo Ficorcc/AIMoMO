@@ -1,7 +1,7 @@
 ---
-title: "和AI视频通话终于不像对讲机了：字节SeedRealtime把"边看边听边说"做成了现实"
+title: "和AI视频通话终于不像对讲机了：字节SeedRealtime把\"边看边听边说\"做成了现实"
 pubDate: 2026-08-10
-description: "字节跳动推出业界首个原生音视频全双工大模型SeedRealtime，在豆包App全量上线。告别"听—转写—想—说"的回合制，AI终于能像人一样边看边听边说了。对话节奏问题减半，完整交流概率显著提升，这意味着什么？"
+description: "字节跳动推出业界首个原生音视频全双工大模型SeedRealtime，在豆包App全量上线。告别\"听—转写—想—说\"的回合制，AI终于能像人一样边看边听边说了。对话节奏问题减半，完整交流概率显著提升，这意味着什么？"
 category: "AI"
 image: ""
 draft: false

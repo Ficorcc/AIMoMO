@@ -1,5 +1,5 @@
 ---
-title: "WordPress插件更新到8月，我发现独立博客的"工具焦虑"正在变成"选择过剩""
+title: "WordPress插件更新到8月，我发现独立博客的\"工具焦虑\"正在变成\"选择过剩\""
 pubDate: 2026-08-09
 description: "从FiboSearch到YITH插件，WordPress生态在8月迎来密集更新。但问题来了：插件越来越多，博主真的需要这么多功能吗？"
 category: "博客"

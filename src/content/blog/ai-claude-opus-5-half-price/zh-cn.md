@@ -1,5 +1,5 @@
 ---
-title: "Claude Opus 5：Anthropic扔出"半价王炸"，把旗舰AI打成"平价货""
+title: "Claude Opus 5：Anthropic扔出\"半价王炸\"，把旗舰AI打成\"平价货\""
 pubDate: 2026-07-28
 description: "Anthropic发布Claude Opus 5，能力逼近Fable 5，价格却砍半。这不只是Anthropic一家的定价策略，而是整个大模型行业从\"拼智能\"转向\"拼性价比\"的分水岭事件。"
 category: "AI"

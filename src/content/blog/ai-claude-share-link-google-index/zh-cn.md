@@ -1,5 +1,5 @@
 ---
-title: "你的 Claude 对话，可能正在 Google 上"裸奔"：一次隐私事故带来的教训"
+title: "你的 Claude 对话，可能正在 Google 上\"裸奔\"：一次隐私事故带来的教训"
 pubDate: 2026-07-31
 description: "Claude 的对话分享功能曝出严重隐私漏洞——用户以为只分享给了同事，实际上却被 Google 索引并公开。Anthropic 怎么说？用户又该怎么保护自己？"
 category: "AI"
