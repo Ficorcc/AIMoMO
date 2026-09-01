@@ -1,7 +1,7 @@
 ---
 title: "Cloudflare 博客迁移自研 CMS：Astro + EmDash 的真实踩坑记"
 pubDate: 2026-08-31
-description: "Cloudflare 把官方博客从第三方 CMS 迁移到自研的 EmDash，作为"零号客户"暴露了哪些问题？这对使用 Astro 和 Cloudflare Pages 的独立博主有什么启示？"
+description: "Cloudflare 把官方博客从第三方 CMS 迁移到自研的 EmDash，作为\"零号客户\"暴露了哪些问题？这对使用 Astro 和 Cloudflare Pages 的独立博主有什么启示？"
 category: "博客"
 image: ""
 draft: false
