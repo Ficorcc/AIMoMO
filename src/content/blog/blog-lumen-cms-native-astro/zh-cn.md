@@ -1,5 +1,5 @@
 ---
-title: "Lumen CMS：给 Astro 装上一个"原生大脑"，终于不用在文件和数据库之间二选一了"
+title: "Lumen CMS：给 Astro 装上一个\"原生大脑\"，终于不用在文件和数据库之间二选一了"
 pubDate: 2026-09-04
 description: "Lumen CMS 是一个专为 Astro 设计的无头 CMS，它不把你的内容锁在第三方平台上——你的 Markdown 文件还是你的文件，只是多了一个编辑器。"
 category: "博客"

@@ -1,5 +1,5 @@
 ---
-title: "Runway发布"界面世界模型"Solaris：以后做UI，可能就是"拍"出来的"
+title: "Runway发布\"界面世界模型\"Solaris：以后做UI，可能就是\"拍\"出来的"
 pubDate: 2026-09-02
 description: "Runway推出了首个界面世界模型Solaris，可以用类似视频生成的方式实时生成App和网页界面——点击、拖拽，模型直接生成下一帧，而不是传统的代码。这可能不只是一个Demo，它指向了一种全新的UI生产方式。"
 category: "AI"
