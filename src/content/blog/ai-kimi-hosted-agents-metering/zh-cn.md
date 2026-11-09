@@ -1,12 +1,22 @@
 ---
-title: "Kimi 开始按小时出租「Agent 的运行环境」：沙箱 0.072 元一小时，插件按次收费"
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: 03bce104f8581472252c9414909234ca_5ed4ad79d97e11f1bff2525400cd780f
+    ReservedCode1: MiHe+BRUoy2oBR4vezDdTUZq4Y7R1OIDVQ1TJf05CWMaOx72dCeAnaASL/BtGeL3WojWLX4eaMKAyY4/xyfRgNEXMFg4VjWjun7H4g13T/7wLiJWN3eruFo7Xb9ZuQK88T3fWvRYEIJo0a+0k83+tHGvqDhXyt4OqxfWuF8rraOh6osLsuRQzAu5l+o=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: 03bce104f8581472252c9414909234ca_5ed4ad79d97e11f1bff2525400cd780f
+    ReservedCode2: MiHe+BRUoy2oBR4vezDdTUZq4Y7R1OIDVQ1TJf05CWMaOx72dCeAnaASL/BtGeL3WojWLX4eaMKAyY4/xyfRgNEXMFg4VjWjun7H4g13T/7wLiJWN3eruFo7Xb9ZuQK88T3fWvRYEIJo0a+0k83+tHGvqDhXyt4OqxfWuF8rraOh6osLsuRQzAu5l+o=
+title: "Kimi 把 Agent 的运行环境做成云端包月：Hosted Agents 正式发布，卖的是「让它一直活着」"
 pubDate: 2026-11-06
-description: "11月5日月之暗面正式发布 Kimi Hosted Agents，把支撑 Agent 运行的 Harness 做成云端托管服务。定价拆成沙箱时长 0.072 元/小时、模型推理、插件调用三段，联网搜索每次 0.03 元。140 多项技能、30 多个插件、8 个金融 Agent 模板，还配了推理前的数据拦截组件。Agent 的运行环境第一次成了独立商品。"
+description: "11 月 5 日月之暗面把 Kimi Hosted Agents 全面开放。官方叫 Kimi Durable Harness，是包在推理 API 外的会话历史、云沙箱、失败恢复、超时重试与多智能体编排，7×24 托管，接 140 多项技能、30 多个插件和 8 个金融 Agent 模板。这篇从定价表入手，聊它真正卖的不是模型，而是让 Agent 一直活着。"
 category: "AI"
 image: ""
 draft: false
 slugId: "momo/ai-kimi-hosted-agents-metering"
 ---
+
+
 
 11 月 5 日，月之暗面把 Kimi Hosted Agents 正式发布了。9 月它还在 Beta，只对国内企业认证用户开放，现在对外全面放出。
 
@@ -47,3 +57,4 @@ slugId: "momo/ai-kimi-hosted-agents-metering"
 托管 Harness 会变成标配，明年这时候几乎所有国内模型厂商都会有一份，价格会打得比现在更凶。真正的分水岭不在价格，在两件事：一是失败恢复到底靠不靠谱——断点续跑、幂等重试、扣费能不能对上账；二是插件生态的质量，30 个金融插件看着热闹，但每次 0.45 元的数据源如果返回脏数据，Agent 越努力错得越离谱。
 
 如果你在评估要不要上，我的建议是先拿一个「跑 20 分钟以上、需要调 3 次以上外部接口」的真实任务去压测，别用 demo。计费表上那三个数字，只有在这种任务里才会露出真面目。
+*（内容由AI生成，仅供参考）*

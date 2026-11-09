@@ -1,12 +1,22 @@
 ---
-title: "检察院替老百姓打官司这事，终于有了专门法：6 章 53 条，2027 年 1 月 1 日施行"
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: 03bce104f8581472252c9414909234ca_49cf7305da4711f1bff2525400cd780f
+    ReservedCode1: 3U/fE8JjbR3Y+YJ5TaQBYfY+Lgb95OXRZ+MTTzNUQ7J6+orcdSUli0gEdgyWz9Sk6hEf8tHaFgNecDtLDBl6XBVajE0ZEPBwOnSypZ7QS9PQIBPg6BzyyXuPrZzT94eXzlz5h3aWNq0WLZRIq/qmtXYZxlaFUl09b0E6K0OlCll+Np78UjTrAl60V5I=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: 03bce104f8581472252c9414909234ca_49cf7305da4711f1bff2525400cd780f
+    ReservedCode2: 3U/fE8JjbR3Y+YJ5TaQBYfY+Lgb95OXRZ+MTTzNUQ7J6+orcdSUli0gEdgyWz9Sk6hEf8tHaFgNecDtLDBl6XBVajE0ZEPBwOnSypZ7QS9PQIBPg6BzyyXuPrZzT94eXzlz5h3aWNq0WLZRIq/qmtXYZxlaFUl09b0E6K0OlCll+Np78UjTrAl60V5I=
+title: "《检察公益诉讼法》通过了：当一件事伤害一群人、却没人愿意打官司，现在有法定答案"
 pubDate: 2026-11-07
-description: "11 月 6 日，十四届全国人大常委会第二十五次会议表决通过《中华人民共和国检察公益诉讼法》，全文 6 章 53 条，2027 年 1 月 1 日起施行。这是检察公益诉讼第一次有专门立法，除生态环境、食药安全、国有财产、土地出让四大传统领域外，还覆盖到个人信息保护和特殊群体权益。同一天最高检发布刑事立案监督典型案例，把「民事纠纷外衣」下的刑事犯罪讲透了。"
+description: "11 月 6 日全国人大常委会第二十五次会议表决通过《中华人民共和国检察公益诉讼法》，主席令第八十六号公布，2027 年 1 月 1 日起施行。全文 6 章 53 条，把个人信息保护、特殊群体权益保障等新型公益场景装进来，并明确检察机关的调查取证权限与诉前公告程序。这篇讲它到底解决了什么具体问题。"
 category: "法律"
 image: ""
 draft: false
 slugId: "momo/law-procuratorial-public-interest-litigation-law"
 ---
+
+
 
 11 月 6 日，全国人大常委会第二十五次会议表决通过了一部新法：《中华人民共和国检察公益诉讼法》。主席令第八十六号当天公布，2027 年 1 月 1 日起施行。
 
@@ -63,3 +73,4 @@ slugId: "momo/law-procuratorial-public-interest-litigation-law"
 对平台和企业来说，个人信息保护、食药安全这两个方向，以前可能是"被投诉了再改"，以后要按"会不会被公益诉讼盯上"来排优先级。对普通人来说，这部法最大的价值不是让你多一个原告身份，而是让你知道：有些事真的不用你一个人扛。
 
 我认为接下来最值得观察的不是案子数量，而是两件事：检察院的调查取证权在实际案件里能用得多实，以及诉前公告程序会不会变成"给整改机会"的常规机制。这两点决定了这部法是"纸面有力"还是"落地有力"。
+*（内容由AI生成，仅供参考）*

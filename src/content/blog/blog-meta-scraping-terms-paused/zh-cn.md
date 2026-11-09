@@ -1,12 +1,22 @@
 ---
-title: "Meta 想用一条条款给企业网站的内容「默认授权」：9 天被两国法院拦下，11 月 5 日悄悄撤了"
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: 03bce104f8581472252c9414909234ca_4a60f4d4da4711f1bff2525400cd780f
+    ReservedCode1: lYg+QblgB2rGSI7nG9vAlZZ49Nw1KYc/NOISz24Qj9IrZzR7+L6oWGcOjlSaTtheBgV2FqX58JgZhr+HjTVE8yyg0cuPIH2LmymRWJOnPUm7Y6AOPBV0sr102HSy87Ks5VV7PhTNKvcdo19r6+hY5kpNNZUfrREwH1iYXgWnzPyiWjrIBcsfqUkH4Z8=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: 03bce104f8581472252c9414909234ca_4a60f4d4da4711f1bff2525400cd780f
+    ReservedCode2: lYg+QblgB2rGSI7nG9vAlZZ49Nw1KYc/NOISz24Qj9IrZzR7+L6oWGcOjlSaTtheBgV2FqX58JgZhr+HjTVE8yyg0cuPIH2LmymRWJOnPUm7Y6AOPBV0sr102HSy87Ks5VV7PhTNKvcdo19r6+hY5kpNNZUfrREwH1iYXgWnzPyiWjrIBcsfqUkH4Z8=
+title: "把自己网站和 Instagram 绑在一起，就等于同意 Meta 来爬：一份条款暂停生效背后的授权陷阱"
 pubDate: 2026-11-07
-description: "10 月 8 日 Meta 提出新版商用条款，允许它爬取用 Facebook、Instagram、WhatsApp、Messenger 做生意的企业网站内容。原定 11 月 20 日生效，中途删掉了「训练」字样，但保留了「用于开发生成式 AI 服务」的表述。11 月 3 日巴西圣保罗法院发出初步禁令，日罚 100 万雷亚尔；挪威法院也已出手，英国 CMA 正式立案调查。11 月 5 日 Meta 撤下预览链接，宣布无限期暂停。"
+description: "10 月 8 日 Meta 提出新版商业条款，其中一句允许它用自动化手段抓取、索引、分析那些在 Facebook、Instagram、WhatsApp 上做生意的企业所关联网站的内容。原定 10 月 30 日生效，舆论反应强烈后推到 11 月 20 日，并删掉「train」字眼，但仍保留内容可用于开发商业产品的措辞。这篇聊独立博客真正该关心什么。"
 category: "博客"
 image: ""
 draft: false
 slugId: "momo/blog-meta-scraping-terms-paused"
 ---
+
+
 
 这件事对独立博客来说，比任何一次主题改版都重要，因为它动的不是你的 CSS，是你内容的授权规则。
 
@@ -67,3 +77,4 @@ Meta 的解释一直是：这些改动是为了改进广告推荐。
 更根本的一点：我们习惯了把"内容"当作品，其实它同时是**资产**，资产是要管授权边界的。这次 Meta 只是把这个问题提前摔在了桌面上——而且它摔得很响，九天里被两个国家的法院按住了。
 
 下次它回来的时候，未必这么响。
+*（内容由AI生成，仅供参考）*

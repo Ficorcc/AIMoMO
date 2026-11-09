@@ -1,12 +1,22 @@
 ---
-title: "让老婆去当独立董事，一年领 40 万：两高这六个案子把「挂名拿钱」的路堵死了"
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: 03bce104f8581472252c9414909234ca_5f9fed7fd97e11f1a0ca525400de85a5
+    ReservedCode1: Cmy7mRETtmflX3xDCRmCaKn3JvYXFkw8UY56jTlODj078NWM5xNVYdD/q5yuzMnKqDU+yeEUMEbolqQoTJE/qu/8zYpQzffg1LhMYEjACUo0eoDmNyqml0HFYMA/ptQ3BXglAPbsfB63qOOca23Kefc4QMQuK2LarnyFtubCJoiSPeKC8m3E07C8+6s=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: 03bce104f8581472252c9414909234ca_5f9fed7fd97e11f1a0ca525400de85a5
+    ReservedCode2: Cmy7mRETtmflX3xDCRmCaKn3JvYXFkw8UY56jTlODj078NWM5xNVYdD/q5yuzMnKqDU+yeEUMEbolqQoTJE/qu/8zYpQzffg1LhMYEjACUo0eoDmNyqml0HFYMA/ptQ3BXglAPbsfB63qOOca23Kefc4QMQuK2LarnyFtubCJoiSPeKC8m3E07C8+6s=
+title: "离职后去对方公司领 389 万薪水：两高 6 个隐性职务犯罪案例，把「人情」的价目表摊开了"
 pubDate: 2026-11-06
-description: "两高 11 月 2 日印发 6 件依法惩治新型、隐性职务犯罪典型案例，11 月 5 日公开。案例里有让家属挂名领薪 40 万被全额认定受贿的、有帮女儿开公司吃钢材差价的、有给情人专设岗位比同岗多拿 815 万的。判断标准就三条：市场价、是否实质经营、是否承担风险。这套逻辑对普通职场人同样生效。"
+description: "11 月 2 日两高发布 6 件依法惩治新型、隐性职务犯罪典型案例。受贿不再走现金，改走供货合同、战略配售股、董事薪酬、采购项目、拆迁补偿这些「合法的壳」。某银行原副行长离职后到贷款方当董事，三年领 389 万只出席过 1 次董事会，连妻子的 40 万空饷一起被认定。这篇讲法院认定方式变了，对你我意味着什么。"
 category: "法律"
 image: ""
 draft: false
 slugId: "momo/law-hidden-bribery-cases-2026"
 ---
+
+
 
 11 月 2 日，两高印发通知，发布 6 件依法惩治新型、隐性职务犯罪典型案例，11 月 5 日经媒体披露。
 
@@ -53,3 +63,4 @@ slugId: "momo/law-hidden-bribery-cases-2026"
 这六个案子没有改法条，改的是**取证和认定的路径**。以前认定受贿要看「钱从哪来」，现在看「这门生意为什么给你」。所以工商登记、社保记录、董事会签到、薪酬表、供应商名录，这些平淡的合规材料现在都成了定案证据。
 
 对企业来说，这意味着关联交易的白纸黑字会越来越重要：定价依据、比价记录、审批流程，缺一环就可能被认定为利益输送。对个人来说，最实用的提醒是那句老话——**凡是「不用干活就能拿钱」的机会，先问一句这钱本来该给谁。**
+*（内容由AI生成，仅供参考）*

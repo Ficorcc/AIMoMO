@@ -1,12 +1,22 @@
 ---
-title: "两百多篇文章之后，他把 WordPress 换成了自己写的博客引擎"
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: 03bce104f8581472252c9414909234ca_603e3190d97e11f1bff2525400cd780f
+    ReservedCode1: Uin25amGeqzsBKKBP4DC/FGOIGhtzJ4DvkKmdyUvJXUDRwOe1aU0xian4AytWx/N7zrxZYFr18orvKcyZv8iNYZRRCGB0GT3jFIDghm0fSYyWzL0S9cLw/xcScIyEmJIGBOzo3eJ16TtgrHi5bIlqEj5ku/OLOXAetkIeUSmLwOxmMVAlZoOtl2oj/w=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: 03bce104f8581472252c9414909234ca_603e3190d97e11f1bff2525400cd780f
+    ReservedCode2: Uin25amGeqzsBKKBP4DC/FGOIGhtzJ4DvkKmdyUvJXUDRwOe1aU0xian4AytWx/N7zrxZYFr18orvKcyZv8iNYZRRCGB0GT3jFIDghm0fSYyWzL0S9cLw/xcScIyEmJIGBOzo3eJ16TtgrHi5bIlqEj5ku/OLOXAetkIeUSmLwOxmMVAlZoOtl2oj/w=
+title: "写了两百多篇文章后，他离开 WordPress 自己写了个生成器：OJapp Blog Kit 的四个克制"
 pubDate: 2026-11-06
-description: "11 月 3 日，一位独立博主写了篇文章讲自己为什么离开 WordPress、动手做了一个静态博客引擎 OJapp Blog Kit：Markdown 写、构建成 HTML、articles.json 存元数据、Cloudflare Pages 发布。迁移 200 多篇日英双语文章时踩了目录锚点和部署静默失败的坑。他的理由不是性能，是发布一篇文章要碰的东西太多。"
+description: "11 月 3 日一篇《Why I Left WordPress and Built My Own Blog Engine》被反复转发。作者运营日英双语两百多篇的站点，迁移后没换 Astro 也没换 Hugo，而是自己写了个静态生成器并开源成 OJapp Blog Kit：Markdown 写正文、articles.json 管元数据、Cloudflare Pages 托管。这篇聊它为什么刻意做小。"
 category: "博客"
 image: ""
 draft: false
 slugId: "momo/blog-self-built-blog-engine-ojapp"
 ---
+
+
 
 11 月 3 日读到一篇文章，标题很直白：《Why I Left WordPress and Built My Own Blog Engine》。作者运营一个叫 Tips 的双语站，日文加英文两百多篇，迁移完之后把自己做的这套东西开源成了 OJapp Blog Kit。
 
@@ -55,3 +65,4 @@ slugId: "momo/blog-self-built-blog-engine-ojapp"
 如果你也想动手，我的建议是三步走：先用现成的静态框架（Astro、Hugo 都行）把迁移跑一遍，搞清楚自己真正在意的是哪几个环节；再决定是写脚本补上这些环节，还是直接 fork 一个框架；最后才是考虑完全自研。跳过前两步直接开写，通常会在三个月后得到一个功能残缺、文档为零的小 WordPress。
 
 他的结论我也认同——把围绕写作的一切做到尽可能小。这话说起来像口号，做起来就是不断删功能。能忍住不加东西，比能写出生成器难多了。
+*（内容由AI生成，仅供参考）*

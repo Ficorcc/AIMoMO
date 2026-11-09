@@ -1,12 +1,22 @@
 ---
-title: "5280 万 token 就能改写一个开源模型的「立场」：Arete-27B 真正让人在意的地方"
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: 03bce104f8581472252c9414909234ca_7d276a79db1011f1bff2525400cd780f
+    ReservedCode1: i1FlgMxQwDTNI+IRz1ERQGs9JUzBY+EnQUfAT6SEjPtWUh+mYRa7pnGpopSY9GN7P99dSIQ9V/QnopbvjSdftRGB4A45+Ri11Hhm+VtXcR4ehDstOOPmlMR4l9dYJLRC45R2NTcKfnSD9fwmPnDETj5En67hoBiWRpApyxGASP6O3A3Zp7CRjzq6Pws=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: 03bce104f8581472252c9414909234ca_7d276a79db1011f1bff2525400cd780f
+    ReservedCode2: i1FlgMxQwDTNI+IRz1ERQGs9JUzBY+EnQUfAT6SEjPtWUh+mYRa7pnGpopSY9GN7P99dSIQ9V/QnopbvjSdftRGB4A45+Ri11Hhm+VtXcR4ehDstOOPmlMR4l9dYJLRC45R2NTcKfnSD9fwmPnDETj5En67hoBiWRpApyxGASP6O3A3Zp7CRjzq6Pws=
+title: "5280 万 token、1202 步，把 Qwen 的「世界观」掰过来：Arete-27B 暴露的工程事实"
 pubDate: 2026-11-08
-description: "11 月 6 日，Nous Research 拿阿里 Qwen3.8-27B 的权重，用 5280 万 token 的监督数据重训了一版 Arete-27B，把评测里的「官方口径式回答」从 22% 压到 1%，能力却没有掉。这件事的政治色彩很浓，但真正值得技术圈记一笔的是另一件事：模型的价值层比想象中薄得多，五千万 token、两天、四张卡，就能把它整个翻过来。"
+description: "11 月 6 日 Nous Research 拿阿里的 Qwen3.8-27B 权重又训了一遍，做出 Arete-27B。没有 RL、没有偏好优化、架构不动、视觉编码器冻着，只用约 5280 万 token 文本、两万八千多条样本、1202 步、张量并行 4。这篇不讨论价值观谁对，只谈它顺手证明的一件事：开源模型的价值观，只有一次微调的距离。"
 category: "AI"
 image: ""
 draft: false
 slugId: "momo/ai-arete-27b-value-layer"
 ---
+
+
 
 11 月 6 日，Nous Research 发布了一个叫 Arete-27B 的模型。做法写在标题里，一点都不藏着：拿阿里的 Qwen3.8-27B 权重，再训一遍，把模型的"世界观"往西方主流口径上掰。
 
@@ -61,3 +71,4 @@ Nous 的论证是：如果所有人都在用同样几个前沿模型，它们的
 对普通人意味着什么？意味着"我用了哪家的模型，所以它符合我的合规要求"这个推理，从今天起站不太住了。合规的落点不在供应商的名字上，而在你自己的评测集和你的开关上。对做产品的人意味着什么？如果你真的在意模型的行为，花几十万美元自建一套评测，比在发布会上听人讲"我们高度重视安全"有用得多。
 
 至于 Arete-27B 本身会不会被广泛使用，我持保留态度。27B 这个尺寸在 2026 年已经很边缘了，它更像一次公开的方法演示。但方法是可以抄的，而且我猜很快就会有人抄——往各个方向抄。
+*（内容由AI生成，仅供参考）*

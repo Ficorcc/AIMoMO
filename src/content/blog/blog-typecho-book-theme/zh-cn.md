@@ -1,12 +1,22 @@
 ---
-title: "有人给 Typecho 写了一本「能翻开的书」：全站都在优化 LCP 的时候，他把网页做成了物件"
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: 03bce104f8581472252c9414909234ca_7e86c6c2db1011f1bff2525400cd780f
+    ReservedCode1: f5SdME9tB1b6Ek0wPafJ1lYlMu5MngD+LImTEjo2AhtYt2lYnX3VqH21j6qYeu2gGRTwDYD2Fn6SgMKFaLdfxERl8uleELXiSKovlQA29iBCREaHLloS1J4PvWvue1W7v0t1Dj4J6TZPIJ5njWgSEh2ETAVpBDYLRK2n/h88FMZhhkoyamudv60ksk0=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: 03bce104f8581472252c9414909234ca_7e86c6c2db1011f1bff2525400cd780f
+    ReservedCode2: f5SdME9tB1b6Ek0wPafJ1lYlMu5MngD+LImTEjo2AhtYt2lYnX3VqH21j6qYeu2gGRTwDYD2Fn6SgMKFaLdfxERl8uleELXiSKovlQA29iBCREaHLloS1J4PvWvue1W7v0t1Dj4J6TZPIJ5njWgSEh2ETAVpBDYLRK2n/h88FMZhhkoyamudv60ksk0=
+title: "Typecho 出了个「一本书」主题：不讲 LCP 不讲 INP，只讲翻页手感"
 pubDate: 2026-11-08
-description: "Typecho 论坛 11 月 1 日出现一款叫 book 的主题（作者 randaxia，版本 1.5.4）：封面是带纸纤维和旧渍的象牙纸，书脊是 37px 的圆背，书名竖排、站点首字做成一枚微斜 2.5 度的朱印，翻开后左页目录、右页正文，开合所有图层绑在同一条 960ms 的时间轴上。在人人追 LCP、追 AI 抓取的 2026 年，它反向做了一件事：让一个博客看起来值得被翻开。"
+description: "11 月 1 日 Typecho 论坛出现 randaxia 做的 book 主题，版本 1.5.4。打开是一本素纸精装书，点一下翻开，左页目录右页正文，没有瀑布流、没有悬浮广告位、没有通知弹窗。封面叠了双向纸纤维与旧渍，书脊是 37px 宽的圆背。这篇聊一个不追性能指标、只堆手感的主题，为什么反而值得记住。"
 category: "博客"
 image: ""
 draft: false
 slugId: "momo/blog-typecho-book-theme"
 ---
+
+
 
 11 月 1 日，Typecho 论坛上冒出一个帖子：《一款 typecho 主题 book 主题诞生了》。作者 randaxia，版本 1.5.4，演示站挂在 daimarushi.cn 上。
 
@@ -63,3 +73,4 @@ book 走的是另一条路：它堆 CSS、堆动画、堆拟物细节，用 960m
 我越来越觉得，独立博客这件事的意义已经从"表达"漂移到了"留存"。算法分发的东西，两年后连你自己都找不回来；一个亲手搭的站，十年后还在。而一个做得好的主题，就是让这十年里每一次打开，都不至于那么随便。
 
 如果你也用 Typecho，可以去论坛里翻翻原帖，作者写了很长的设计说明，那些关于纸纤维、受光带和缓动曲线的段落，本身就值得一读——它比绝大多数"主题介绍"更像一篇作品自述。
+*（内容由AI生成，仅供参考）*

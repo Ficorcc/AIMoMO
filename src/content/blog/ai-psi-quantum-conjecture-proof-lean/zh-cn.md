@@ -1,12 +1,22 @@
 ---
-title: "AI 用三天证明了一个悬了 18 年的猜想：这次没人敢直接说「它对」"
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: 03bce104f8581472252c9414909234ca_4924f24eda4711f1bff2525400cd780f
+    ReservedCode1: Waov0gxkq5q3hH9tSdJ3tvUHsZRP6EZOm5uwFPBs4ndEsuwB2DrWGhtI8s2ir9PTNqeREzPdNAE14k43FKdG/kLQ3uJ4+H/oSvViKhv55Ed3oojHOkr0b9mRISVhyY4Bm+s2J6opStuh9piXbVlP5HXBFX/RuPbW272FGSuCFfKdsw9FTzM1GjL1FxU=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: 03bce104f8581472252c9414909234ca_4924f24eda4711f1bff2525400cd780f
+    ReservedCode2: Waov0gxkq5q3hH9tSdJ3tvUHsZRP6EZOm5uwFPBs4ndEsuwB2DrWGhtI8s2ir9PTNqeREzPdNAE14k43FKdG/kLQ3uJ4+H/oSvViKhv55Ed3oojHOkr0b9mRISVhyY4Bm+s2J6opStuh9piXbVlP5HXBFX/RuPbW272FGSuCFfKdsw9FTzM1GjL1FxU=
+title: "AI 用三天证明了一个十八年前的量子猜想，Lean 检查通过了：这次的变化在「谁来验收」"
 pubDate: 2026-11-07
-description: "11 月 6 日，PSI 公布了一份对 Aaronson–Ambainis 猜想的证明，这个猜想从 2008 年悬到现在。证明由一个运行非公开 Anthropic 模型的内部研究系统在第三天给出，Lean 证明助手接受了形式化，系统随后两次改进结果。但这份证明没有同行评审，审计人也来自同一机构。真正值得讨论的不是 AI 会不会做数学，而是验证速度已经跟不上生产速度。"
+description: "11 月 6 日，PSI 公布 2008 年 Aaronson–Ambainis 猜想的证明：不是人手写的，来自一个跑在非公开 Anthropic 模型实例上的内部研究系统，第三天给出完整证明，Lean 证明助手接受了形式化，之后它自行转向相关开放问题并改进两次。这篇聊为什么真正的变化不在「做出来」，而在「谁来验收」。"
 category: "AI"
 image: ""
 draft: false
 slugId: "momo/ai-psi-quantum-conjecture-proof-lean"
 ---
+
+
 
 11 月 6 日，一家叫 PSI 的机构公布了一份证明：2008 年 Scott Aaronson 和 Andris Ambainis 提出的那个猜想，被证明了。
 
@@ -65,3 +75,4 @@ Turturean 那句"对正确性负责"，比证明本身更值得看。以后会�
 那接下来的问题就不是"AI 能不能做科研"，而是"人类打算用什么标准来收下这些成果"。这个标准现在还没建好，PSI 这次用内部审计顶上了，但内部审计不是长久之计。
 
 我相信明年这个时候，会有机构开始专门做"AI 成果的第三方验收"这门生意。这才是这三天真正的后续。
+*（内容由AI生成，仅供参考）*

@@ -1,12 +1,22 @@
 ---
-title: "把一张表丢给 AI 做 PPT，被开除后反赢 4.6 万：这个判决真正在审的不是「泄密」"
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: 03bce104f8581472252c9414909234ca_7ddf6ebfdb1011f1a0ca525400de85a5
+    ReservedCode1: CMtXipZ7sCWcXX+bCsZGVRUGNC0u1WC6nreYw+5sWUuKiF5WnPio1BuISiqBxzihBfvEetgiYsI1oJRFAFUbErbjzfBZsbiZyvkiswXq03Tjl+GSmMj9XSmqroNg0gcQOuzq4/NO6KByOh7ZYzqS7DSFg8A5PySdXba1JdBNspcbaP4h+9yTzqseqbM=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: 03bce104f8581472252c9414909234ca_7ddf6ebfdb1011f1a0ca525400de85a5
+    ReservedCode2: CMtXipZ7sCWcXX+bCsZGVRUGNC0u1WC6nreYw+5sWUuKiF5WnPio1BuISiqBxzihBfvEetgiYsI1oJRFAFUbErbjzfBZsbiZyvkiswXq03Tjl+GSmMj9XSmqroNg0gcQOuzq4/NO6KByOh7ZYzqS7DSFg8A5PySdXba1JdBNspcbaP4h+9yTzqseqbM=
+title: "法务把数据表传给 AI 被开除，法院判公司违法解除：法官问的三个问题值得所有人记住"
 pubDate: 2026-11-08
-description: "保险公司法务吴女士把自行整理加工的稽核数据表上传到领导多次推荐的第三方 AI 平台做 PPT，一个月后被以「严重违反信息安全规定」解除劳动合同。北京朝阳法院认定公司违法解除，判继续履行并赔偿 4.6 万余元，二审维持。法官给出的三条标准——主观过错、明确制度依据、实际损害或重大风险——等于替所有企业写了一份 AI 办公合规清单。"
+description: "北京一家保险公司法务吴女士 2024 年 7 月为做 PPT，把整理过的稽核数据表上传到领导多次推荐的第三方 AI 平台，一个月后被以「严重违反信息安全等相关规定」解除劳动合同。仲裁支持她，公司起诉，朝阳法院一审判违法解除、赔 4.6 万余元，二审维持。这篇讲法官判断的三个问题，以及它对打工人的意义。"
 category: "法律"
 image: ""
 draft: false
 slugId: "momo/law-ai-office-upload-dismissal"
 ---
+
+
 
 央视 11 月 6 日报道了一个案子，我看了两遍。
 
@@ -57,3 +67,4 @@ slugId: "momo/law-ai-office-upload-dismissal"
 所以这个判决最实际的价值，不是判了多少钱，而是它把这层窗户纸捅破了：**AI 办公不是灰色地带，它是制度空白。** 谁先把空白填上，谁就不用在下一次纠纷里花 4.6 万买教训。
 
 顺带说一句给员工听的话：判决里反复出现的"领导推荐""没有专项培训""表格经过自行加工"，都是可以被证据固定的事实。这不是教你打官司，而是提醒你——在一个还没写清规则的环境里，留痕就是保护自己。
+*（内容由AI生成，仅供参考）*
